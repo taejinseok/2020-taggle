@@ -1,5 +1,5 @@
 <template>
-  <v-list-item :to="{ name: 'bookmarks', params: { id: subItem.id } }">
+  <v-list-item :to="{ path: 'bookmarks', query: { tag: subItem.id } }">
     <v-list-item-title>
       {{ subItem.name }}
     </v-list-item-title>
